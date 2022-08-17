@@ -1,0 +1,96 @@
+.more {
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.more__title {
+  color: @black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 300px;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 53px;
+    height: 2px;
+    background-color: @basic_green;
+    position: absolute;
+    right: 0;
+    top: 15px;
+  }
+}
+
+.more__list {
+  padding: 0;
+  margin: 20px;
+}
+
+.more__item-options {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.more__item-options-title {
+  color: @black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.more__item-options-table {
+  color: @footer_grey;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+  padding: 0;
+}
+
+.gift {
+  height: 290px;
+  min-width: 280px;
+  margin: 35px 20px;
+  padding: 0;
+  background-image: url(../img/more-background.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 60px;
+}
+
+.gift__description {
+  color: @white;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  height: 60px;
+}
+
+.more__item-divider {
+  display: block;
+  border: 1px solid @nav_grey;
+  min-width: 280px;
+  height: 100%;
+  border-bottom: 0;
+}
